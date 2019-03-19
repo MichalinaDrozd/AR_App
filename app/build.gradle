@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.ar.sceneform.plugin'
 
 android {
     compileSdkVersion 28
@@ -46,3 +47,9 @@ dependencies {
 
 
 }
+
+
+sceneform.asset('src/main/assets/Sample/audi_r8.fbx',
+        'default',
+        'src/main/assets/Sample/audi_r8.sfa',
+        'src/main/res/raw/audi_r8')
