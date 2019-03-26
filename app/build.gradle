@@ -45,6 +45,8 @@ dependencies {
     // Provides ArFragment, and other UX resources.
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.7.0'
 
+    implementation 'br.com.simplepass:loading-button-android:1.6.5'
+
 
 }
 

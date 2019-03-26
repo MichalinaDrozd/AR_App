@@ -2,6 +2,8 @@ package com.example.michalinadrozd.arapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,4 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+
 }
